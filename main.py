@@ -1,34 +1,25 @@
-num=int(input("enter your age"))
-if num%2==0:
-    print("Number is Even")
-else:
-    print("Number is Odd")
+num=1
+while num<=10:
+    print (num)
+    num+=1
+
+num=55045687
+count=0
+while num!=0:
+    num=num//10
+    count=count +1
+    print("total digits are :",count)
 
 
+n = 5
+k = 5
+for i in range(0,n+1):
+    for j in range(k-i,0,-1):
+        print(j,end=' ')
+    print()
 
-num=int(input("enter your age"))
-if num%5==0:
-        print ("hello")
-else:
-       print("bye")
-
-
-amt =0
-nu=int(input("enter number of electric unit"))
-if nu<=100:
- amt =0
-if nu>100 and nu<=200:
-     amt=(nu-100)*5
-if nu>200:
-         amt=500+(nu-200)*10
-         print("amount to pay:",amt)
-
-num=int(input("enter any number"))
-ld=num%10
-if ld%3==0:
-    print("last digit of number is divisible by 3")
-else:
-    print("last digit of number is not divisible by 3")
-
-
+list1= [10,20,30,40,50]
+new_list=revrsed(list1):
+for item in new_list:
+    print(item)
 
